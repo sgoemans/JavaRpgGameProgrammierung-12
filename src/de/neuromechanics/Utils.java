@@ -14,7 +14,7 @@ public class Utils {
 		//Get file from resources folder
 		FileReader file = null;
 		try {
-			file = new FileReader(Utils.class.getClass().getResource(path).getFile());
+			file = new FileReader(Utils.class.getResource(path).getFile());
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		}		
